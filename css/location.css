@@ -1,0 +1,28 @@
+
+#headline-LocationBeGuest {
+	width:100%;
+	height:80px;
+	background: bisque;
+	text-align:center;
+    margin: 10px auto 10px auto;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+
+.GeneralBox-address {
+    width: 500px;
+    height:350px;
+    border: 2px solid;
+    border-color: tan;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 9px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+    }
+
+  
+  

@@ -1,0 +1,62 @@
+
+#headline-cakes {
+	width:100%;
+	height:60px;
+	background:/*#F25C43;*/ brown;
+	text-align:left;
+	margin: 10px auto 10px auto;
+}
+#headline-cakes h1  {
+	color:#FFF;
+	font-size:1.5em;
+	font-weight:400;
+    padding: 20px 20px 20px 200px;
+    font-style: italic;
+    /*text-transform: uppercase;*/
+}
+
+/*Cakes*/
+.card-cakes {
+    border: white solid 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+.card-cakes img {
+    border-radius: 5px;
+}
+
+.price {
+    color: gray;
+    font-size: 22px;
+}
+
+.card-cakes button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card-cakes button:hover {
+    opacity: 0.7;
+}
+.card-cakes:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

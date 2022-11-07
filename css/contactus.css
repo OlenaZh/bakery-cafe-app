@@ -1,0 +1,100 @@
+
+.centered {
+    color:white;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-5%, -50%);
+    text-shadow:black;
+}
+.ContactHeadline {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font: weight 400;
+    color: brown;
+   margin-top:  20px;
+    
+}
+.CU-border {border-bottom: solid 0.2px lightgray;
+padding-bottom: 20px;
+padding-top: 20px;}
+    
+
+
+.testBorder {
+    margin-left: 100px;
+    margin-right: 20px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+
+#name, #email, #phonenumber, #Date_of_Visit, #Time_Of_Visit, #subject {
+    width: 600px;
+    padding: 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    
+   }
+   #radio {
+    width: 600px;
+    padding:6px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+   }
+   #radio label {
+	float: none;
+}
+#radio input {
+	width: auto;
+	margin-left: 3em;
+}
+textarea 	{
+    width:600px;
+    height:100px;
+    padding:6px 10px;
+    background-color:#fff;
+    border:1px solid #D1D1D1;
+    border-radius:4px;
+    box-shadow:none;
+    box-sizing:border-box;}
+    
+textarea 	{
+    min-height:65px;
+    padding-top:6px;
+    padding-bottom:6px;}
+    
+#SubmitForm input {
+    width: 15em;
+}
+
+input[type="tel"]:active {
+    border: 2px solid #800000;
+
+}
+input[type="tel"]:valid {
+    border: 1px solid green;
+}
+
+/*Aside Hours Contacts*/
+
+.GeneralBox {
+width: 500px;
+height:300px;
+border: 2px solid;
+border-color: tan;
+text-align: center;
+padding-top: 30px;
+margin-top: 80px;
+font-family: 'Lato', sans-serif;;
+}
+

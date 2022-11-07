@@ -1,0 +1,55 @@
+/*Carousel*/
+.carousel {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+    }
+/*Header Carousel*/
+ /*{box-sizing: border-box;}*/
+
+header .carousel {
+    position: relative;
+    width: 500%;    
+    -webkit-animation: carousel 20s 2s infinite;
+    animation: carousel 20s 2s  infinite;
+}
+header .carousel > .slide {
+    float: left;
+    width: 20%;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+
+
+@-webkit-keyframes carousel {
+    
+        0%      {left: 0%;}
+        10%		{left: 0%;}
+        20%		{left: -100%;}
+        30%		{left: -100%;}
+        40%		{left: -200%;}
+        50%		{left: -200%;}
+        60%		{left: -300%;}
+        70%		{left: -300%;}
+        80%		{left: -400%;}
+        90%		{left: -400%;}
+        100%	{left: -400%;}
+    
+}
+
+@keyframes carousel {
+    0%      {left: 0%;}
+    10%		{left: 0%;}
+    20%		{left: -100%;}
+    30%		{left: -100%;}
+    40%		{left: -200%;}
+    50%		{left: -200%;}
+    60%		{left: -300%;}
+    70%		{left: -300%;}
+    80%		{left: -400%;}
+    90%		{left: -400%;}
+    100%	{left: -400%;}
+}
